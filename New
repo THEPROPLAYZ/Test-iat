@@ -1,0 +1,45 @@
+local Tab = Window:NewTab("Map TP-S")
+
+local Section = Tab:NewSection("Map Locations")
+
+
+Section:NewButton("Fountain", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-754.278503, -3.06866455, 1606.64111, -0.107205555, 1.05957501e-08, -0.994236827, 5.7898589e-08, 1, 4.41414016e-09, 0.994236827, -5.70916825e-08, -0.107205555)
+end)
+
+
+Section:NewButton("Healing Dummys", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-807.189697, -4.85914183, 1621.38416, 0.99414742, -1.26825057e-08, -0.108030282, 1.98882724e-08, 1, 6.56239152e-08, 0.108030282, -6.73883491e-08, 0.99414742)
+end)
+
+
+Section:NewButton("1v1 Arena", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-558.9357299804688, 1.7618613243103027, 1328.16455078125)
+end)
+
+
+Section:NewButton("Arrow Shop", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-634.588196, -4.6000061, 1703.26404, -0.994130433, -4.80428959e-08, 0.10818705, -5.23901384e-08, 1, -3.73403353e-08, -0.10818705, -4.27891003e-08, -0.994130433)
+end)
+
+
+Section:NewButton("Rocks", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-419.359131, -5.10004139, 1681.87634, 0.507609725, -1.22854743e-07, 0.861587107, 3.74974007e-08, 1, 1.20499365e-07, -0.861587107, -2.88593736e-08, 0.507609725)
+end)
+
+
+Section:NewButton("Dio-s world", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12865.8671875, 1621.9996337890625, 2032.81591796875)
+end)
+
+
+Section:NewButton("Brazil", "Teleport", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1411.237060546875, 5.509615421295166, -474.6673583984375)
+end)
