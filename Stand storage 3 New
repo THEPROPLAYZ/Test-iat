@@ -1,0 +1,5 @@
+local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Essentals"):WaitForChild("StandStorage"):FireServer(unpack(args))
