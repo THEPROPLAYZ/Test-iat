@@ -1,0 +1,6 @@
+local args = {
+    [1] = 12,
+    [2] = "DIO"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpecialMoves"):WaitForChild("Timestop"):FireServer(unpack(args))
