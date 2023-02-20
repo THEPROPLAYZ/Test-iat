@@ -1,0 +1,7 @@
+while wait() do
+   game:GetService("ReplicatedStorage").Attacks.OverHeavenKnifeThrow:FireServer(0)
+end
+
+while wait() do
+   game:GetService("ReplicatedStorage").SpecialMoves.Timestop:FireServer(12,"DIO")
+end
