@@ -1,0 +1,10 @@
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [3] = 50,
+    [4] = 1,
+    [5] = "rbxassetid://1202656211",
+    [6] = 2.5
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Attacks"):WaitForChild("Heal"):WaitForChild("OverHeavenHeal"):FireServer(unpack(args))
