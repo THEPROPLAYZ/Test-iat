@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("BIZZARE ADVENTURES", "Synapse")
+
+--Tabs and other stuff
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Some stuff")
+
+Section:NewButton("GiveItem", "Get all the items before they get it :)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/THEPROPLAYZ/Test-iat/main/ItemGive"))()
+end)
+
+Section:NewToggle("Quest", "complete all your quest", function(state)
+    if state then
+        _G.loop = true
+        While _G.loop == true do wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEPROPLAYZ/Test-iat/main/Quest"))() 
+    else
+        _G.loop = false
+        While _G.loop == true do wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEPROPLAYZ/Test-iat/main/Quest"))()
+    end
+end)
