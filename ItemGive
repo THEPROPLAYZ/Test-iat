@@ -1,0 +1,6 @@
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Turtle",false)
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Letter",false)
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Gucci",false)
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Turtle",true)
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Letter",true)
+game:GetService("ReplicatedStorage").Main.Shop.Quest:FireServer("Gucci",true)
